@@ -1,11 +1,8 @@
 package rs.service.mssc_beer_service.bootstrap;
 
 import java.math.BigDecimal;
-
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
-
 import rs.service.mssc_beer_service.domain.Beer;
 import rs.service.mssc_beer_service.repositories.BeerRepository;
 
@@ -43,6 +40,7 @@ public class BeerLoader implements CommandLineRunner{
 		    .price(new BigDecimal("11.95"))
 		    .build());
 	}
+	
 	System.out.println("Beers loaded: " + beerRepository.count());
     }
 
