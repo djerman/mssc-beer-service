@@ -16,6 +16,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import rs.service.mssc_beer_service.web.model.BeerDto;
 import rs.service.mssc_beer_service.web.model.BeerStyleEnum;
 
+/**
+ * test
+ */
 @WebMvcTest(BeerController.class)
 class BeerControllerTest {
 
